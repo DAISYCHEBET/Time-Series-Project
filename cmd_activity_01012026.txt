@@ -1,0 +1,317 @@
+Microsoft Windows [Version 10.0.22631.5840]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Admin>cd desktop
+
+C:\Users\Admin\Desktop>cd github
+
+C:\Users\Admin\Desktop\GitHub>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 2E5E-60F0
+
+ Directory of C:\Users\Admin\Desktop\GitHub
+
+01/01/2026  10:04 AM    <DIR>          .
+12/27/2025  09:19 PM    <DIR>          ..
+11/27/2025  08:48 AM    <DIR>          AB-testing-email-optimization
+09/02/2025  01:17 PM    <DIR>          achievements
+06/17/2025  10:11 PM    <DIR>          AI-KYC-Verification
+11/19/2025  09:45 PM    <DIR>          AirBnB-Rental-Pricing
+07/04/2025  02:02 PM    <DIR>          Click-bait-classification
+12/17/2025  05:30 PM    <DIR>          Cryptographic-Sentiment-and-Price
+09/01/2025  11:24 AM    <DIR>          Data Analysis
+07/23/2025  01:10 PM    <DIR>          Dataisy
+08/23/2025  08:00 PM    <DIR>          Electric-Vehicle-Population-Analysis
+07/23/2025  03:49 PM    <DIR>          Feature-importance-analysis-by-use-of-Tree-based-models
+09/25/2025  02:08 PM    <DIR>          Geemap--
+10/12/2024  09:29 PM    <DIR>          githubtest
+09/02/2025  10:15 AM    <DIR>          Hacker-News-Scraper
+06/20/2025  04:10 PM    <DIR>          Harvest-Guard
+06/20/2025  03:24 PM    <DIR>          HarvestGuard
+08/09/2025  08:27 PM    <DIR>          hhjjj
+10/27/2025  10:37 AM    <DIR>          Hybrid-Movie-Recommendation-System
+11/20/2025  11:32 AM    <DIR>          Intelligent-Banking-Support-Chatbot
+09/03/2025  02:00 PM    <DIR>          Iotlytics
+09/04/2025  12:33 PM    <DIR>          Iris-Data-Cleaning-and-Preprocessing
+10/12/2024  09:47 PM    <DIR>          Learn
+06/17/2025  01:32 PM    <DIR>          LearnGithubWithBabe_1
+12/18/2025  10:10 PM    <DIR>          Legacy-Data-Engineering-Pipeline
+10/08/2025  02:51 PM    <DIR>          Linear-Regression-model
+12/12/2025  11:43 AM    <DIR>          machine-learning-zoomcamp
+09/25/2025  11:43 AM    <DIR>          ml-zoocamp-Module-1-Homework
+10/05/2025  04:44 PM    <DIR>          ml-zoocamp-Module-2-2025-Homework
+10/15/2025  08:13 AM    <DIR>          ml-zoocamp-Module-3-2025
+10/20/2025  11:54 AM    <DIR>          ml-zoocamp-Module-4-2025-Homework
+10/30/2025  10:32 AM    <DIR>          ml-zoocamp-Module-5-2025
+11/03/2025  03:10 PM    <DIR>          ml-zoomcamp-Module-6-2025
+12/07/2025  10:02 PM    <DIR>          ml-zoomcamp-module-9-2025
+11/30/2025  11:46 AM    <DIR>          mlzoomcamp-module-8-2025
+08/20/2025  02:02 PM    <DIR>          Mpesa-Dashboard-Analysis
+09/16/2025  01:48 PM    <DIR>          Nairobi-Walkability-Accessibility-Analysis
+10/17/2024  05:50 PM    <DIR>          pages
+08/18/2025  02:49 PM    <DIR>          Power-BI-Projects
+12/29/2025  02:38 AM    <DIR>          sales
+10/02/2025  12:43 PM    <DIR>          Sales-forecasting
+01/01/2026  04:47 PM    <DIR>          sales_timeseries_project
+10/30/2025  08:12 PM    <DIR>          Sentiment-Analysis-on-Tweets
+09/04/2025  12:26 PM    <DIR>          Task 1
+07/23/2025  04:41 PM    <DIR>          Telecommunication-Customer-Churn-Prediction
+06/17/2025  01:50 PM    <DIR>          Todolist-Repo
+09/09/2025  04:06 PM    <DIR>          travel-agency-spatial-analysis-nairobi
+08/20/2025  03:03 PM    <DIR>          Video-Game-Dashboard
+               0 File(s)              0 bytes
+              48 Dir(s)  331,296,030,720 bytes free
+
+C:\Users\Admin\Desktop\GitHub>cd sales_timeseries_project
+
+C:\Users\Admin\Desktop\GitHub\sales_timeseries_project>venv\Scripts\activate
+
+(venv) C:\Users\Admin\Desktop\GitHub\sales_timeseries_project>mlflow ui
+Backend store URI not provided. Using ./mlruns
+Registry store URI not provided. Using backend store URI.
+C:\Users\Admin\Desktop\GitHub\sales_timeseries_project\venv\Lib\site-packages\mlflow\server\handlers.py:295: FutureWarning: The filesystem tracking backend (e.g., './mlruns') will be deprecated in February 2026. Consider transitioning to a database backend (e.g., 'sqlite:///mlflow.db') to take advantage of the latest MLflow features. See https://github.com/mlflow/mlflow/issues/18534 for more details and migration guidance. For migrating existing data, https://github.com/mlflow/mlflow-export-import can be used.
+  return FileStore(store_uri, artifact_uri)
+C:\Users\Admin\Desktop\GitHub\sales_timeseries_project\venv\Lib\site-packages\mlflow\server\handlers.py:324: FutureWarning: The filesystem model registry backend (e.g., './mlruns') will be deprecated in February 2026. Consider transitioning to a database backend (e.g., 'sqlite:///mlflow.db') to take advantage of the latest MLflow features. See https://github.com/mlflow/mlflow/issues/18534 for more details and migration guidance. For migrating existing data, https://github.com/mlflow/mlflow-export-import can be used.
+  return FileStore(store_uri)
+[MLflow] Security middleware enabled with default settings (localhost-only). To allow connections from other hosts, use --host 0.0.0.0 and configure --allowed-hosts and --cors-allowed-origins.
+INFO:     Uvicorn running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:     Started parent process [5404]
+INFO:     Started server process [9380]
+INFO:     Started server process [3940]
+INFO:     Waiting for application startup.
+INFO:     Started server process [6808]
+INFO:     Waiting for application startup.
+INFO:     Waiting for application startup.
+INFO:     Started server process [9140]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Application startup complete.
+INFO:     Application startup complete.
+INFO:     Application startup complete.
+ERROR:    Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "C:\Users\Admin\Desktop\GitHub\sales_timeseries_project\venv\Lib\site-packages\uvicorn\server.py", line 71, in serve
+    await self._serve(sockets)
+  File "C:\Users\Admin\Desktop\GitHub\sales_timeseries_project\venv\Lib\site-packages\uvicorn\server.py", line 86, in _serve
+    await self.startup(sockets=sockets)
+  File "C:\Users\Admin\Desktop\GitHub\sales_timeseries_project\venv\Lib\site-packages\uvicorn\server.py", line 136, in startup
+    server = await loop.create_server(create_protocol, sock=sock, ssl=config.ssl, backlog=config.backlog)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 1655, in create_server
+    server._start_serving()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 317, in _start_serving
+    sock.listen(self._backlog)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^
+OSError: [WinError 10022] An invalid argument was supplied
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\GitHub\sales_timeseries_project\venv\Lib\site-packages\starlette\routing.py", line 701, in lifespan
+    await receive()
+  File "C:\Users\Admin\Desktop\GitHub\sales_timeseries_project\venv\Lib\site-packages\uvicorn\lifespan\on.py", line 137, in receive
+    return await self.receive_queue.get()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\queues.py", line 186, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+Process SpawnProcess-4:
+ERROR:    Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "C:\Users\Admin\Desktop\GitHub\sales_timeseries_project\venv\Lib\site-packages\uvicorn\server.py", line 71, in serve
+    await self._serve(sockets)
+  File "C:\Users\Admin\Desktop\GitHub\sales_timeseries_project\venv\Lib\site-packages\uvicorn\server.py", line 86, in _serve
+    await self.startup(sockets=sockets)
+  File "C:\Users\Admin\Desktop\GitHub\sales_timeseries_project\venv\Lib\site-packages\uvicorn\server.py", line 136, in startup
+    server = await loop.create_server(create_protocol, sock=sock, ssl=config.ssl, backlog=config.backlog)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 1655, in create_server
+    server._start_serving()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 317, in _start_serving
+    sock.listen(self._backlog)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^
+OSError: [WinError 10022] An invalid argument was supplied
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\GitHub\sales_timeseries_project\venv\Lib\site-packages\starlette\routing.py", line 701, in lifespan
+    await receive()
+  File "C:\Users\Admin\Desktop\GitHub\sales_timeseries_project\venv\Lib\site-packages\uvicorn\lifespan\on.py", line 137, in receive
+    return await self.receive_queue.get()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\queues.py", line 186, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+Process SpawnProcess-3:
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "C:\Users\Admin\Desktop\GitHub\sales_timeseries_project\venv\Lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+    ~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\GitHub\sales_timeseries_project\venv\Lib\site-packages\uvicorn\supervisors\multiprocess.py", line 64, in target
+    return self.real_target(sockets)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\Desktop\GitHub\sales_timeseries_project\venv\Lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+    ~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\GitHub\sales_timeseries_project\venv\Lib\site-packages\uvicorn\server.py", line 67, in run
+    return asyncio_run(self.serve(sockets=sockets), loop_factory=self.config.get_loop_factory())
+  File "C:\Users\Admin\Desktop\GitHub\sales_timeseries_project\venv\Lib\site-packages\uvicorn\supervisors\multiprocess.py", line 64, in target
+    return self.real_target(sockets)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Users\Admin\Desktop\GitHub\sales_timeseries_project\venv\Lib\site-packages\uvicorn\server.py", line 67, in run
+    return asyncio_run(self.serve(sockets=sockets), loop_factory=self.config.get_loop_factory())
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Admin\Desktop\GitHub\sales_timeseries_project\venv\Lib\site-packages\uvicorn\server.py", line 71, in serve
+    await self._serve(sockets)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "C:\Users\Admin\Desktop\GitHub\sales_timeseries_project\venv\Lib\site-packages\uvicorn\server.py", line 86, in _serve
+    await self.startup(sockets=sockets)
+  File "C:\Users\Admin\Desktop\GitHub\sales_timeseries_project\venv\Lib\site-packages\uvicorn\server.py", line 71, in serve
+    await self._serve(sockets)
+  File "C:\Users\Admin\Desktop\GitHub\sales_timeseries_project\venv\Lib\site-packages\uvicorn\server.py", line 136, in startup
+    server = await loop.create_server(create_protocol, sock=sock, ssl=config.ssl, backlog=config.backlog)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\GitHub\sales_timeseries_project\venv\Lib\site-packages\uvicorn\server.py", line 86, in _serve
+    await self.startup(sockets=sockets)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 1655, in create_server
+    server._start_serving()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Admin\Desktop\GitHub\sales_timeseries_project\venv\Lib\site-packages\uvicorn\server.py", line 136, in startup
+    server = await loop.create_server(create_protocol, sock=sock, ssl=config.ssl, backlog=config.backlog)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 317, in _start_serving
+    sock.listen(self._backlog)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 1655, in create_server
+    server._start_serving()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+OSError: [WinError 10022] An invalid argument was supplied
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 317, in _start_serving
+    sock.listen(self._backlog)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^
+OSError: [WinError 10022] An invalid argument was supplied
+INFO:     127.0.0.1:56959 - "GET / HTTP/1.1" 200 OK
+INFO:     Waiting for child process [6808]
+INFO:     Child process [6808] died
+INFO:     Waiting for child process [9380]
+INFO:     Child process [9380] died
+INFO:     127.0.0.1:52074 - "GET /static-files/static/css/main.280d6c90.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56959 - "GET /static-files/static/js/main.3d3698b5.js HTTP/1.1" 200 OK
+INFO:     Started server process [7040]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:61267 - "GET /static-files/manifest.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55608 - "GET /static-files/static/css/8516.26533251.chunk.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56959 - "GET /static-files/TelemetryLogger.telemetry-worker.90fcfc77e7d23212e89b.worker.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61747 - "GET /static-files/static/js/3617.10568100.chunk.js HTTP/1.1" 200 OK
+INFO:     Started server process [7340]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:55608 - "GET /static-files/static/js/8516.2c6c0e64.chunk.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49974 - "GET /static-files/static/js/5759.45405231.chunk.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61747 - "GET /ajax-api/3.0/mlflow/ui-telemetry HTTP/1.1" 200 OK
+C:\Users\Admin\Desktop\GitHub\sales_timeseries_project\venv\Lib\site-packages\mlflow\server\handlers.py:295: FutureWarning: The filesystem tracking backend (e.g., './mlruns') will be deprecated in February 2026. Consider transitioning to a database backend (e.g., 'sqlite:///mlflow.db') to take advantage of the latest MLflow features. See https://github.com/mlflow/mlflow/issues/18534 for more details and migration guidance. For migrating existing data, https://github.com/mlflow/mlflow-export-import can be used.
+  return FileStore(store_uri, artifact_uri)
+INFO:     127.0.0.1:49974 - "GET /ajax-api/2.0/mlflow/experiments/search?max_results=5&order_by=last_update_time+DESC HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65107 - "GET /static-files/favicon.ico HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58782 - "GET /ajax-api/2.0/mlflow/experiments/search?max_results=5&order_by=last_update_time+DESC HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59170 - "GET /static-files/static/css/2092.fd7db8ca.chunk.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63655 - "GET /static-files/static/js/2092.93edc3ab.chunk.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60527 - "GET /static-files/static/js/2365.08729b99.chunk.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52820 - "GET /static-files/static/js/6016.5d2c5d48.chunk.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54244 - "GET /static-files/static/js/8799.de860ae0.chunk.js HTTP/1.1" 200 OK
+C:\Users\Admin\Desktop\GitHub\sales_timeseries_project\venv\Lib\site-packages\mlflow\server\handlers.py:295: FutureWarning: The filesystem tracking backend (e.g., './mlruns') will be deprecated in February 2026. Consider transitioning to a database backend (e.g., 'sqlite:///mlflow.db') to take advantage of the latest MLflow features. See https://github.com/mlflow/mlflow/issues/18534 for more details and migration guidance. For migrating existing data, https://github.com/mlflow/mlflow-export-import can be used.
+  return FileStore(store_uri, artifact_uri)
+INFO:     127.0.0.1:54244 - "POST /graphql HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54244 - "GET /ajax-api/2.0/mlflow/traces?experiment_ids=889989079207346607&order_by=timestamp_ms%20DESC&max_results=1&filter= HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57460 - "GET /static-files/static/js/9460.396b29fd.chunk.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54244 - "GET /static-files/static/css/9563.3a1ae3b9.chunk.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57460 - "GET /static-files/static/js/1090.9c665bdd.chunk.js HTTP/1.1" 200 OK
+C:\Users\Admin\Desktop\GitHub\sales_timeseries_project\venv\Lib\site-packages\mlflow\server\handlers.py:295: FutureWarning: The filesystem tracking backend (e.g., './mlruns') will be deprecated in February 2026. Consider transitioning to a database backend (e.g., 'sqlite:///mlflow.db') to take advantage of the latest MLflow features. See https://github.com/mlflow/mlflow/issues/18534 for more details and migration guidance. For migrating existing data, https://github.com/mlflow/mlflow-export-import can be used.
+  return FileStore(store_uri, artifact_uri)
+INFO:     127.0.0.1:57460 - "GET /static-files/static/js/1095.1e481871.chunk.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54244 - "GET /static-files/static/js/8169.0ac9117e.chunk.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57460 - "GET /static-files/static/js/3989.74bc5e28.chunk.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50491 - "GET /static-files/static/js/4499.adb4d38c.chunk.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54244 - "GET /static-files/static/js/4905.dff1e909.chunk.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51228 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61174 - "GET /static-files/static/js/3368.8aa2b5ac.chunk.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50491 - "GET /static-files/static/js/4139.443ae34b.chunk.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51228 - "GET /static-files/static/js/657.b086bfcb.chunk.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57460 - "GET /static-files/static/js/8154.30d40395.chunk.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61174 - "GET /static-files/static/js/5248.0dc6088d.chunk.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51228 - "GET /static-files/static/js/9791.b1bad444.chunk.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50491 - "GET /static-files/static/js/9042.f3ef552c.chunk.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57460 - "GET /static-files/static/js/5167.2e1e0a50.chunk.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61174 - "GET /static-files/static/js/363.f3bba9cb.chunk.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55333 - "GET /static-files/static/js/683.b5476dee.chunk.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51228 - "GET /static-files/static/js/4802.b6f7e71c.chunk.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50491 - "GET /static-files/static/js/1241.92272b00.chunk.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61174 - "GET /static-files/static/js/9563.941d9737.chunk.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55333 - "GET /static-files/static/js/1573.b4e0475f.chunk.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54244 - "GET /static-files/static/js/2354.46a305cb.chunk.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54244 - "POST /ajax-api/2.0/mlflow/experiments/search-datasets HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54244 - "GET /static-files/static/css/1575.05d081e5.chunk.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54693 - "GET /ajax-api/2.0/mlflow/gateway-proxy?gateway_path=api%2F2.0%2Fendpoints%2F HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54693 - "POST /ajax-api/2.0/mlflow/logged-models/search HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55072 - "GET /static-files/static/js/5964.4d84f1bd.chunk.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49248 - "GET /static-files/static/js/1575.b2bbe01d.chunk.js HTTP/1.1" 200 OK
+C:\Users\Admin\Desktop\GitHub\sales_timeseries_project\venv\Lib\site-packages\mlflow\server\handlers.py:295: FutureWarning: The filesystem tracking backend (e.g., './mlruns') will be deprecated in February 2026. Consider transitioning to a database backend (e.g., 'sqlite:///mlflow.db') to take advantage of the latest MLflow features. See https://github.com/mlflow/mlflow/issues/18534 for more details and migration guidance. For migrating existing data, https://github.com/mlflow/mlflow-export-import can be used.
+  return FileStore(store_uri, artifact_uri)
+INFO:     127.0.0.1:51779 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51779 - "POST /ajax-api/2.0/mlflow/experiments/set-experiment-tag HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51779 - "POST /graphql HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61872 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51894 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61829 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53463 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
