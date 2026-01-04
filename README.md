@@ -319,8 +319,8 @@ Contributions are welcome! Please:
 - [API Documentation](http://localhost:8000/docs)
 - [Model Training Notebook](notebooks/01_original_analysis.ipynb)
 
----
-
  **Star this repo if you find it helpful!**
 
  **Questions?** Open an issue or contact me directly.
+
+
