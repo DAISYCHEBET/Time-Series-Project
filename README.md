@@ -341,7 +341,7 @@ Contributions are welcome! Please:
 
 - [API Documentation](http://localhost:8000/docs) - Interactive API explorer
 - [MLflow UI](http://localhost:5000) - Experiment tracking dashboard
-- **[Exploratory Data Analysis](notebooks/01_original_analysis.ipynb)** - Deep dive into the raw data, visualizations, and initial insights
+
 
 ---
 
