@@ -4,6 +4,7 @@
 data:
   raw_path: "data/raw/train.csv"
   processed_path: "data/processed/processed_data.csv"
+  features_path: "data/processed/features_monthly.csv"
   predictions_path: "data/predictions/"
 
 # Model settings
@@ -22,6 +23,7 @@ models:
     n_estimators: 100
     max_depth: 5
     learning_rate: 0.1
+    random_state: 42
 
 # Training settings
 training:
@@ -31,8 +33,14 @@ training:
 
 # Feature engineering
 features:
-  lag_features: [1, 2, 3, 6, 12]
+  lag_features: [1, 3, 6, 12]
   rolling_windows: [3, 6, 12]
+  time_features:
+    - month
+    - year
+    - quarter
+    - day_of_week
+    - season
   
 # MLflow settings
 mlflow:
@@ -44,8 +52,12 @@ api:
   host: "0.0.0.0"
   port: 8000
   reload: true
+  title: "Sales Forecasting API"
+  description: "Production time series forecasting API powered by XGBoost"
+  version: "1.0.0"
 
-# Streamlit settings
-streamlit:
-  port: 8501
-  theme: "light"
+# Docker settings
+docker:
+  image_name: "sales-forecast-api"
+  container_name: "sales-forecast-api"
+  port: 8000
