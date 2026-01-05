@@ -6,7 +6,7 @@
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.108-009688.svg)](https://fastapi.tiangolo.com/)
 [![Docker](https://img.shields.io/badge/Docker-enabled-2496ED.svg)](https://www.docker.com/)
 [![MLflow](https://img.shields.io/badge/MLflow-2.9-0194E2.svg)](https://mlflow.org/)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+
 
 
 ## Problem Statement
